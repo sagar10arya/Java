@@ -1,6 +1,6 @@
 class hello 
 {
-    public static void main(String a[])
+    public static void main(String args[])
     {
         System.out.print("Hello World");
 
@@ -27,6 +27,10 @@ class hello
 
         System.out.println(myDouble1);   // Outputs 9.78
         System.out.println(myInt1);      // Outputs 9
+
+        int a = 257;
+        byte k = (byte) a;
+        System.out.println(k); // 1 --> 257 % 256
     }
 }
 // Java -> follows unicode
