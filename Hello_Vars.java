@@ -1,3 +1,11 @@
+/*
+public: JVM can access this method from anywhere.
+static: No object creation needed, JVM can invoke it directly.
+void: Doesn't return any value.
+main: The starting point of the program.
+String[] args: An array that stores any command-line arguments provided when running the program.
+*/
+
 class hello 
 {
     public static void main(String args[])
