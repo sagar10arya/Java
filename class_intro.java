@@ -1,4 +1,5 @@
 class Employee{
+    // instance variables
     int id;
     String name;
 
@@ -6,6 +7,9 @@ class Employee{
         System.out.println(name + " has Id : " + id);
     }
 }
+
+
+// Static variable is shared by all the objects
 
 class class_intro{
     public static void main(String[] args)
