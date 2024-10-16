@@ -1,3 +1,9 @@
+/* 
+class - class -> extends
+class - interface -> implements
+interface - interface -> extends
+*/
+
 /*
 **** Interfaces ****
 - Another way to achieve abstraction in Java is interface.
